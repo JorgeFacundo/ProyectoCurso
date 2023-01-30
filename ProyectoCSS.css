@@ -1,0 +1,95 @@
+
+header {
+    width: 99%;
+    height: 220px;
+    background: #242527;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    border: 2px solid #fff;
+}
+section {
+    text-align: center;
+}
+article {
+    width: 99%;
+    background: #313235;
+    text-align: center;
+    overflow: hidden;
+    border: 2px solid #fff;
+}
+h3, h4, h2{
+    background: #242527;
+    text-align: center;
+}
+button {
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+table{
+    border: 2px solid #fff;
+    width: 99%;
+    text-align: center;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid #fff;
+    text-align: left;
+    position: static;
+    margin: auto;
+    width: 592px;
+    padding: 2px;
+}
+th {
+    text-align: -internal-center;
+}
+html {
+    border: 2px solid #fff;
+}body {
+    background: #2c2e31;
+    position: relative;
+    color:  #fff;
+} 
+.coso {
+    background-color: rgb(94, 94, 100);
+    width: 16%;
+    height: 16%;
+}
+
+@media (max-width: 600px) {
+    .coso {
+        width: 25%;
+        height: 12%;
+        text-align: center;
+        font-size: small;
+        vertical-align: middle;
+        display: inline-block;
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+footer {
+    width: 99%;
+    border: 2px solid #fff;
+    height: 25px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.menu li a {
+    color: #fff;
+    text-align: center;
+}
